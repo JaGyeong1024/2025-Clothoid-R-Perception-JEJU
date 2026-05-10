@@ -10,11 +10,11 @@
 
 <table>
 <tr>
-<td align="center"><a href="https://github.com/JaGyeong1024"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>구자경</b></sub></a><br />SLAM, Navigation</td>
-<td align="center"><a href="https://github.com/gyeongseoMin"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>서준혁</b></sub></a><br />라이다, 장애물 회피</td>
-<td align="center"><a href="https://github.com/SeoooooNyeong"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>김민재</b></sub></a><br />라이다, 장애물 회피</td>
-<td align="center"><a href="https://github.com/JOONHOGITHUB"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>지연수</b></sub></a><br />카메라, 차선 인식</td>
-<td align="center"><a href="https://github.com/leeharam2004"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>유인석</b></sub></a><br />카메라, 차선 인식</td>
+<td align="center"><a href="https://github.com/JaGyeong1024"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>구자경</b></sub></a><br />Perception Architecture, LiDAR Clustering</td>
+<td align="center"><a href="https://github.com/gyeongseoMin"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>서준혁</b></sub></a><br />DL based LiDAR </td>
+<td align="center"><a href="https://github.com/SeoooooNyeong"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>김민재</b></sub></a><br />Camera, DL Pruning</td>
+<td align="center"><a href="https://github.com/JOONHOGITHUB"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>지연수</b></sub></a><br />Camera, DL</td>
+<td align="center"><a href="https://github.com/leeharam2004"><img src="https://avatars.githubusercontent.com/u/105336903?v=4" width="100px;" alt=""/><br /><sub><b>유인석</b></sub></a><br />Camera, H/W</td>
 </tr>
 </table>
 
