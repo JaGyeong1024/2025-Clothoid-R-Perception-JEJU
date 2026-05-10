@@ -1,0 +1,24 @@
+# Catkin / ROS build artifacts
+build/
+devel/
+install/
+.catkin_workspace
+*.pyc
+
+# Python
+__pycache__/
+*.pyo
+*.egg-info/
+
+# Editor / IDE
+*.swp
+*~
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local sensor / log data
+*.bag
