@@ -1,11 +1,12 @@
 # 2025 Clothoid-R Perception (JEJU)
 
-Perception ROS workspace of the Clothoid-R autonomous driving system.
-Built for the 4th International University EV Autonomous Driving Competition (Advanced Autonomous Mobility Race 1/2, Excellence Award).
+Clothoid-R 자율주행 시스템의 Perception ROS workspace.  
+카메라와 LiDAR 기반 객체 검출, 클러스터링, 추적, 센서 퓨전 패키지로 구성됩니다.
+
+**제4회 국제 대학생 EV 자율주행 경진대회**  
+Advanced 자율주행 모빌리티 레이스 1/2 부문 · 최우수상
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![ROS](https://img.shields.io/badge/-ROS-22314E?style=for-the-badge&logo=ROS)
-
-Camera and LiDAR based object detection, clustering, tracking and sensor fusion.
 
 ## Team
 
