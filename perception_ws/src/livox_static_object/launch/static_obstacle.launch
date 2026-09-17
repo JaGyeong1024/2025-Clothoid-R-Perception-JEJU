@@ -1,0 +1,24 @@
+<launch>
+  <!-- ① TF broadcaster -->
+  <node pkg="livox_static_object"
+        type="tf_map_livox_node"
+        name="tf_map_livox"
+        output="screen">
+    <param name="utm_offset_x" value="360825.8209"/>
+    <param name="utm_offset_y" value="4065896.2986"/>
+    <!-- 센서 설치 각도(°)가 있으면 yaw_deg 지정, 없으면 0 -->
+    <param name="yaw_deg" value="0.0"/>
+  </node>
+
+  <!-- ② Static-obstacle detector -->
+  <node pkg="livox_static_object"
+        type="livox_static_object_node"
+        name="livox_static_object"
+        output="screen">
+    <param name="input_topic"  value="/livox/lidar"/>
+    <param name="output_topic" value="/static_obstacles"/>
+    <!-- UTM 오프셋은 detector에도 동일하게 넘김 -->
+    <param name="utm_offset_x" value="360825.8209"/>
+    <param name="utm_offset_y" value="4065896.2986"/>
+  </node>
+</launch>

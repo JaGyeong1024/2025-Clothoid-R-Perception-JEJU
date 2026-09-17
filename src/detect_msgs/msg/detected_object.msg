@@ -1,2 +1,0 @@
-int64 id
-geometry_msgs/Pose world_point

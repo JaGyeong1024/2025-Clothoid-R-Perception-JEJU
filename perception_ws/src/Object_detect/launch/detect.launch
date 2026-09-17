@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Object Detection 노드 -->
+  <node name="object_detection_node" pkg="Object_detect" type="object_detection_node" output="screen">
+
+    <param name="lidar_topic" value="/livox/lidar"/>
+    <param name="camera_topic" value="/camera/image_raw/compressed"/>
+    <param name="yolo_topic" value="/yolov8_pub"/>
+    <param name="frame_name" value="livox_frame"/>
+  </node>
+
+  <!-- velodyne object detection 노드 -->
+  <node name="velodyne_object_detection_node" pkg="Object_detect" type="bev_object_detector.py" output="screen">
+
+    <!-- 토픽 파라미터 -->
+    <param name="model_path" value="/home/a/clothoid-r/perception_ws/src/lidar_object_detec/model/velodyne_v4.pt"/>
+    <param name="voxel_size" value="0.05"/>
+    <param name="x_range" value="[-15.0, 15.0]"/>
+    <param name="y_range" value="[-15.0, 15.0]"/>
+    <param name="z_range" value="[-2.5, 2.0]"/>
+    <param name="max_points_per_voxel" value="30"/>
+  </node>
+</launch>

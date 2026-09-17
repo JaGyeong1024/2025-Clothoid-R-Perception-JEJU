@@ -1,24 +1,27 @@
-# Catkin / ROS build artifacts
+# ===== 최상위: 명시한 항목만 추적 =====
+/*
+!/.gitignore
+!/README.md
+!/2025_pipeline.png
+!/perception_ws/
+!/system_ws/
+
+# ===== catkin / ROS build artifacts =====
 build/
 devel/
 install/
 .catkin_workspace
-*.pyc
+cmake-build-debug/
+*.bag
 
-# Python
+# ===== Python =====
 __pycache__/
-*.pyo
+*.py[cod]
 *.egg-info/
 
-# Editor / IDE
-*.swp
-*~
+# ===== Editors / OS =====
 .vscode/
 .idea/
-
-# OS
+*.swp
+*~
 .DS_Store
-Thumbs.db
-
-# Local sensor / log data
-*.bag

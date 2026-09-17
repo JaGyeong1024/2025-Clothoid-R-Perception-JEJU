@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>livox_static_object</name>
+  <version>0.0.1</version>
+  <description>LiDAR 클러스터링 및 OBB/Tracking Python 노드</description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <export>
+  </export>
+</package>
